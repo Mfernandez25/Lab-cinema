@@ -1,0 +1,159 @@
+*/*{
+	outline: 1px solid red;
+}*/
+
+.header img{
+	max-width: 100%;
+}
+.cartelera img{
+	width: 100%;
+}
+.panel img{
+	width: 100%;
+}
+
+.header .lupa{
+	width: 20px; 
+	height: 20px;
+	position: absolute;
+	margin-left: -15px;
+	margin-top: 3px;
+}
+.header input{
+	border: 1px solid blue;
+	height: 30px;
+}
+.hero{
+	background-image: url(../img/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: #3A3737;
+	color: #B3B3B3;
+	padding: 20px;
+}
+.hero h1{
+	font-size: 40px;
+	padding: 10px;
+	border-bottom: 1px solid gray;
+}
+
+.hero button{
+	width: 150px;
+	height: 40px;
+	padding: 5px;
+	display: block;
+	margin-top: 10px;
+	font-size: 13px;
+	color: white;
+	text-align: left;
+}
+
+.hero .all{
+	width: 80px;
+	height: 40px;
+	border:3px solid #1F6316;
+	background-color: #3A3737;
+	border-radius: 10px;
+	color: #489B3D;
+	display: inline-block;
+}
+.hero .col-9 p{
+	padding: 10px;
+	display: inline-block;
+	margin: 10px;
+}
+
+.hero .watch{
+	background-color: #DBA901;
+	border: 1px solid #DBA901;	
+}
+
+.hero .book{
+	background-color: #946E14;
+	border:1px solid #946E14;
+} 
+i{
+	margin: 10px;
+}
+
+.cartelera{
+	background-color: #DBA901;
+	padding: 30px;
+	margin: 0;
+}
+
+.cartelera img{
+	width: 170px;
+	height: 200px;
+}
+
+.panel{
+	padding: 20px;
+}
+.panel img{
+	width: 230px;
+	height: 250px;
+}
+.footer{
+	background-color: #F0F0F0;
+	padding: 20px;
+	color: #B3B3B3;
+	margin-top: 10px;
+
+}
+.footer ul{
+	list-style: none;
+}
+
+.contenido .subtitulo{
+	color: #9A9A99;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.contenido {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.contenido button{
+	width: 150px;
+	height: 60px;
+	padding: 4px;
+	display: block;
+	background-color: #946E14;
+	border:1px solid #946E14;
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.contenido .discount{
+	color: #C62222;
+}
+.contenido .noticias h2{
+	color: #9A9A99;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.contenido .noticias li{
+	list-style: none;
+	margin-bottom: 20px;
+	font-size: 12px;
+	
+}
+.contenido hr{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.contenido .noticias p{
+	color: #9A9A99;
+	font-size: 10px;
+}
+.contenido .noticias button{
+	background-color: #FFF;
+	border:1px solid #FFF;
+	color: #946E14;
+	margin: 0;
+	padding: 0;
+	width: 50px;
+	height: 20px;
+}
